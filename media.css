@@ -1,0 +1,36 @@
+/* MEDIA QUERIES TO RESIZE*/
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 980px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .messages-container {
+    position: flex;
+    justify-content: center;
+  }
+
+  .icon-title img {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .message {
+    width: 90%;
+  }
+
+  .left,
+  .right {
+    align-self: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
